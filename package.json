@@ -1,9 +1,25 @@
 {
   "name": "@rainyday-fe/source",
   "version": "0.0.0",
+  "private": true,
   "license": "MIT",
   "scripts": {},
-  "private": true,
+  "dependencies": {
+    "@expo/metro": "~56.0.0",
+    "@expo/metro-runtime": "~56.0.14",
+    "@expo/vector-icons": "~15.1.0",
+    "expo": "~56.0.0",
+    "expo-splash-screen": "~56.0.10",
+    "expo-status-bar": "~56.0.4",
+    "expo-system-ui": "~56.0.5",
+    "next": "~16.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-native": "0.85.3",
+    "react-native-svg": "15.12.1",
+    "react-native-svg-transformer": "~1.5.1",
+    "react-native-web": "~0.21.0"
+  },
   "devDependencies": {
     "@babel/runtime": "~7.27.6",
     "@eslint/js": "^9.8.0",
@@ -51,6 +67,7 @@
     "jest-util": "~30.3.0",
     "jsdom": "^27.1.0",
     "nx": "23.2.1",
+    "oxfmt": "^0.60.0",
     "react-test-renderer": "^19.2.0",
     "ts-jest": "^29.4.7",
     "ts-node": "10.9.1",
@@ -59,21 +76,5 @@
     "typescript-eslint": "^8.58.0",
     "vite": "^8.0.0",
     "vitest": "~4.1.0"
-  },
-  "dependencies": {
-    "@expo/metro": "~56.0.0",
-    "@expo/metro-runtime": "~56.0.14",
-    "@expo/vector-icons": "~15.1.0",
-    "expo": "~56.0.0",
-    "expo-splash-screen": "~56.0.10",
-    "expo-status-bar": "~56.0.4",
-    "expo-system-ui": "~56.0.5",
-    "next": "~16.1.6",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-native": "0.85.3",
-    "react-native-svg": "15.12.1",
-    "react-native-svg-transformer": "~1.5.1",
-    "react-native-web": "~0.21.0"
   }
 }

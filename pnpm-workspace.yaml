@@ -2,6 +2,7 @@ autoInstallPeers: true
 allowBuilds:
   '@parcel/watcher': true
   '@swc/core': true
+  inotify: set this to true or false
   nx: true
   sharp: true
   unrs-resolver: true
