@@ -51,6 +51,12 @@ importers:
         specifier: ~0.21.0
         version: 0.21.2(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
     devDependencies:
+      '@babel/core':
+        specifier: ^7.14.5
+        version: 7.29.7(supports-color@7.2.0)
+      '@babel/preset-react':
+        specifier: ^7.14.5
+        version: 7.29.7(@babel/core@7.29.7(supports-color@7.2.0))(supports-color@7.2.0)
       '@babel/runtime':
         specifier: ~7.27.6
         version: 7.27.6
@@ -87,6 +93,9 @@ importers:
       '@nx/playwright':
         specifier: 23.2.1
         version: 23.2.1(@babel/traverse@7.29.8(supports-color@7.2.0))(@nx/jest@23.2.1(432db04adab6223d0655fddb7d3adfb5))(@playwright/test@1.63.0)(@swc-node/register@1.11.1(@swc/core@1.15.47(@swc/helpers@0.5.23))(@swc/types@0.1.28)(supports-color@7.2.0)(typescript@6.0.3))(@swc/cli@0.8.1(@swc/core@1.15.47(@swc/helpers@0.5.23))(supports-color@7.2.0))(@swc/core@1.15.47(@swc/helpers@0.5.23))(@zkochan/js-yaml@0.0.7)(eslint@9.39.5(jiti@2.7.0)(supports-color@7.2.0))(nx@23.2.1(@swc-node/register@1.11.1(@swc/core@1.15.47(@swc/helpers@0.5.23))(@swc/types@0.1.28)(supports-color@7.2.0)(typescript@6.0.3))(@swc/core@1.15.47(@swc/helpers@0.5.23)))(supports-color@7.2.0)
+      '@nx/react':
+        specifier: 23.2.1
+        version: 23.2.1(1877d78f61db3d85e377319deb4978f7)
       '@nx/vite':
         specifier: 23.2.1
         version: 23.2.1(f26cbc223cc237af5ac3a5d3dd2b2c3f)

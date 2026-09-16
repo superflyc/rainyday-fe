@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "strict": false,
     "paths": {
-      "@rainyday-fe/core": ["./packages/core/src/index.ts"]
+      "@rainyday-fe/core": ["./packages/core/src/index.ts"],
+      "@rainyday-fe/ui": ["./packages/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
