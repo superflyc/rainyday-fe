@@ -60,3 +60,5 @@ pnpm nx e2e web-e2e
 
 - [rainyday-be](https://github.com/superflyc/rainyday-be) - FastAPI backend for Rainy Day
 - [dotfiles](https://github.com/superflyc/dotfiles) - Convenience tooling and development environment configuration
+
+pnpm dlx shadcn@latest apply --preset b1tfM21w2 -> shadcn command for more components
